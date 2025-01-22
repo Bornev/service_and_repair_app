@@ -1,0 +1,5 @@
+gb\example\service_and_repair_app\auth_service\config\SecurityConfig.class
+gb\example\service_and_repair_app\auth_service\service\UserDetailsServiceImpl.class
+gb\example\service_and_repair_app\auth_service\controller\AuthController.class
+gb\example\service_and_repair_app\auth_service\AuthServiceApplication.class
+gb\example\service_and_repair_app\auth_service\utils\JwtTokenProvider.class

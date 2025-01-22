@@ -1,0 +1,10 @@
+# .travis.yml
+language: java
+jdk:
+  - openjdk8
+services:
+  - docker
+script:
+  - mvn clean install
+  - docker-compose up -d
+  - mvn test

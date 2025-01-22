@@ -1,0 +1,26 @@
+services:
+  auth-service:
+    build:
+      context: ./auth_service
+    ports:
+      - "8081:8081"
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://config-service:8761/eureka
+
+  config-service:
+    build:
+      context: ./config_service
+    ports:
+      - "8888:8888"
+
+  inspection-service:
+    build:
+      context: ./inspection_service
+    ports:
+      - "8082:8082"
+
+  report-service:
+    build:
+      context: ./report_service
+    ports:
+      - "8083:8083"
