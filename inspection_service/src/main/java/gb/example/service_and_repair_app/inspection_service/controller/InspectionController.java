@@ -3,10 +3,8 @@ package gb.example.service_and_repair_app.inspection_service.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import gb.example.service_and_repair_app.inspection_service.dto.InspectionDTO;
 import gb.example.service_and_repair_app.inspection_service.service.InspectionService;
-
 import java.util.List;
 
 @RestController

@@ -65,12 +65,9 @@ public class JwtTokenProviderTest {
 
 
 
-
-
-
-//Юнит-тест
-
-//package gb.example;
+////Юнит-тест
+//
+//package gb.example.service_and_repair_app.auth_service;
 //
 //import gb.example.service_and_repair_app.auth_service.utils.JwtTokenProvider;
 //import org.junit.jupiter.api.Test;

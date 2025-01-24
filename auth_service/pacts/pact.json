@@ -1,0 +1,38 @@
+{
+  "provider": {
+    "name": "auth_service"
+  },
+  "consumer": {
+    "name": "client_service"
+  },
+  "interactions": [
+    {
+      "description": "Запрос на аутентификацию пользователя",
+      "request": {
+        "method": "POST",
+        "path": "/auth",
+        "body": {
+          "username": "testuser",
+          "password": "password123"
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

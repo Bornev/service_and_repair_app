@@ -1,6 +1,8 @@
 gb\example\service_and_repair_app\inspection_service\dto\InspectionDTO.class
+gb\example\service_and_repair_app\inspection_service\utils\PdfGenerator.class
 gb\example\service_and_repair_app\inspection_service\service\InspectionService.class
 gb\example\service_and_repair_app\inspection_service\repository\InspectionRepository.class
 gb\example\service_and_repair_app\inspection_service\InspectionServiceApplication.class
 gb\example\service_and_repair_app\inspection_service\model\Inspection.class
+gb\example\service_and_repair_app\inspection_service\utils\ExcelGenerator.class
 gb\example\service_and_repair_app\inspection_service\controller\InspectionController.class
